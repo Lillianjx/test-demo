@@ -57,7 +57,7 @@ def main():
     turtle.right(90)
     draw_star(turtle.xcor(), turtle.ycor(), pice * 3)
     x_poses, y_poses = [10, 12, 12, 10], [2, 4, 7, 9]
-    # 画小星星
+    # 画小星星`
     for x_pos, y_pos in zip(x_poses, y_poses):
         turtle.goto(x + x_pos * pice, y + height - y_pos * pice)
         turtle.left(turtle.towards(center_x, center_y) - turtle.heading())
